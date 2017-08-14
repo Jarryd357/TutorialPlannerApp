@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [Command line suite]">
+  <test name="Command line test(failed)">
+    <classes>
+      <class name="TutorialPlannerApp.services.StudentServiceTest">
+        <methods>
+          <include name="testDelete"/>
+          <include name="testCreate"/>
+          <include name="testRead"/>
+          <include name="setUp"/>
+          <include name="testUpdate"/>
+        </methods>
+      </class> <!-- TutorialPlannerApp.services.StudentServiceTest -->
+      <class name="TutorialPlannerApp.factories.StudentFactoryTest">
+        <methods>
+          <include name="getStudent"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- TutorialPlannerApp.factories.StudentFactoryTest -->
+      <class name="TutorialPlannerApp.repositories.StudentRepositoryTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="read"/>
+          <include name="update"/>
+          <include name="delete"/>
+          <include name="create"/>
+        </methods>
+      </class> <!-- TutorialPlannerApp.repositories.StudentRepositoryTest -->
+    </classes>
+  </test> <!-- Command line test(failed) -->
+</suite> <!-- Failed suite [Command line suite] -->

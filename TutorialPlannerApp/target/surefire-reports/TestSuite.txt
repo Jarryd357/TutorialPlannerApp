@@ -1,0 +1,28 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 9, Failures: 3, Errors: 0, Skipped: 2, Time elapsed: 5.97 sec <<< FAILURE!
+getStudent(TutorialPlannerApp.factories.StudentFactoryTest)  Time elapsed: 0.237 sec  <<< FAILURE!
+java.lang.AssertionError: expected [null] but found [Wick]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertEquals(Assert.java:123)
+	at org.testng.Assert.assertEquals(Assert.java:176)
+	at org.testng.Assert.assertEquals(Assert.java:186)
+	at TutorialPlannerApp.factories.StudentFactoryTest.getStudent(StudentFactoryTest.java:28)
+update(TutorialPlannerApp.repositories.StudentRepositoryTest)  Time elapsed: 0.002 sec  <<< FAILURE!
+java.lang.AssertionError: expected [null] but found [Wick]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertEquals(Assert.java:123)
+	at org.testng.Assert.assertEquals(Assert.java:176)
+	at org.testng.Assert.assertEquals(Assert.java:186)
+	at TutorialPlannerApp.repositories.StudentRepositoryTest.update(StudentRepositoryTest.java:56)
+testUpdate(TutorialPlannerApp.services.StudentServiceTest)  Time elapsed: 0.003 sec  <<< FAILURE!
+java.lang.AssertionError: expected [Deo] but found [Wick]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertEquals(Assert.java:123)
+	at org.testng.Assert.assertEquals(Assert.java:176)
+	at org.testng.Assert.assertEquals(Assert.java:186)
+	at TutorialPlannerApp.services.StudentServiceTest.testUpdate(StudentServiceTest.java:57)
